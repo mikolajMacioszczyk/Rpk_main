@@ -1,0 +1,6 @@
+[submodule "Rpk_front"]
+	path = Rpk_front
+	url = https://github.com/mikolajMacioszczyk/Rpk_front
+[submodule "Rpk_back"]
+	path = Rpk_back
+	url = https://github.com/mikolajMacioszczyk/Rpk_back
