@@ -12,7 +12,7 @@
                         "type": "Query",
                         "registerNodeQuery" : {
                             "nodeId": "string",
-                            "quequeChanel": "string"
+                            "quequeChannel": "string"
                         }
                     }
                 }
