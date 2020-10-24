@@ -15,20 +15,6 @@ services:
     networks:
       - dbs
     restart: unless-stopped
-  
-  pgadmin:
-    container_name: rpk_pgadmin
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-root}
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-root}
-    volumes:
-       - pgadmin:/root/.pgadmin
-    ports:
-      - "15431:80"
-    networks:
-      - dbs
-    restart: unless-stopped
 
   my-mongodb:
     image: mongo:latest
