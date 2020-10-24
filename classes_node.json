@@ -1,7 +1,22 @@
 {
-    "registerNodeQuery" : {
-        "nodeId": "string",
-        "quequeChanel": "string"
+    "controllers": {
+        "register_node_controller":
+        {
+            "route": "\\register_node",
+            "endpoints":
+            {
+                "register_node":{
+                    "type": "POST",
+                    "route": "{register_node_controller.route}\\",
+                    "query":{
+                        "registerNodeQuery" : {
+                            "nodeId": "string",
+                            "quequeChanel": "string"
+                        }
+                    }
+                }
+            }
+        }
     },
     "sensorData": {
         "sensorId": "string",
