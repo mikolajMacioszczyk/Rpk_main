@@ -9,6 +9,7 @@
                     "type": "POST",
                     "route": "{register_node_controller.route}\\",
                     "query":{
+                        "type": "Query",
                         "registerNodeQuery" : {
                             "nodeId": "string",
                             "quequeChanel": "string"
