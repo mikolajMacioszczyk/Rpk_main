@@ -1,0 +1,15 @@
+{
+    "registerNodeQuery" : {
+        "nodeId": "string",
+        "quequeChanel": "string"
+    },
+    "sensorData": {
+        "sensorId": "string",
+        "nodeId": "string",
+        "measurementTime": "date(2014-01-01T23:28:56.782Z)",
+        "sensorValue": "float",
+        "localization": "string",
+        "sensorType": "string",
+        "sensorGroupGuid": "string"
+    }
+}
